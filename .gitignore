@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Data
+data/raw/*
+data/processed/*
+*.csv
+*.json
+
+# Models
+models/saved_models/*
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
